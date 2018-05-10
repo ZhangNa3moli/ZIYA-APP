@@ -1,0 +1,465 @@
+page-view {
+    .bar-button-menutoggle-md {
+        margin-left: -5px;
+    }
+    .toolbar-md {
+        padding:0;
+      // min-height:52px;
+    }
+   ion-title{
+       margin-left: 30%;
+       font-family: "黑体";
+   }
+   .searchbar-md {
+      background:#fedb47;
+   }
+   .searchbar-md .searchbar-input {
+    padding: 0px 85px; 
+    border-radius: 50px;
+    font-size:1.4rem;
+   }
+   .searchbar-md .searchbar-search-icon {
+     top:8px; 
+     left:18%;
+   }
+   .con{
+    width:100%;
+    height:auto;
+    background-color:#f9f9f9;
+  }
+//选项菜单
+// .option{
+//     width:100%;
+//     height:50px;
+//     border:1px solid red;
+// }
+.sf{
+   float: left;
+   width:33%;
+   height:50px;
+   border:1px solid green;
+}
+.ss{
+  float: left;
+  width:33%;
+  height:50px;
+  border:1px solid blue;
+}
+
+.st{
+  float: left;
+  width:34%;
+  height:50px;
+  border:1px solid purple;
+}
+
+//one
+.list-ios > .item-block:last-child{
+    border-bottom:1px solid #f0f0f0; 
+ }
+.lie{
+    height:80px;
+  }
+  .bao{
+    float: left;
+    width:100%;
+    height:30px;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+    padding-top:5px;
+    border-top:0.55px solid #ebebeb;
+    border-bottom:0.55px solid #ebebeb;
+    background-color: white;
+    margin-top:10px;
+
+  }
+  .bao span{
+    color:#b6b6b6;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+
+  }
+  .img{
+    width:80px;
+    height:80px;
+    margin-left:-5%;
+    margin-top:-3.5%;
+  }
+  .word{
+    float:left;
+    width:32%;
+    margin-left:18%;
+    margin-top:-75px;
+  }
+  .word p{
+    color:gray;
+  }
+  .word span{
+    font-family: "黑体";
+    color:black;
+    font-size:16px;
+    padding-left:3px;
+
+  }
+  .five{
+    float:left;
+    margin-top:-70px;
+    margin-left:45%;
+  }
+  .fi{
+    color:red;
+    font-size:25px;
+  }
+ .money {
+    color:gray;
+  }
+  .three{
+    float: left;
+    margin-top:-70px;
+    margin-left:68%;
+  }
+  .th{
+    color:red;
+    font-size:25px;
+  }
+  .price{
+    color:gray;
+  }
+  .pict{
+    float: left;
+    margin-left: 97%;
+    margin-top:-18%;
+  }
+  .arrow{
+    width:20px;
+    height:28px;
+
+  }
+  //two
+  .lie2{
+    height:80px;
+  }
+  
+  .bao2{
+    float: left;
+    width:100%;
+    height:30px;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+    padding-top:5px;
+    border-top:0.55px solid #ebebeb;
+    border-bottom:0.55px solid #ebebeb;
+    background-color: white;
+    margin-top:5%;
+
+  }
+  .bao2 span{
+    color:#b6b6b6;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+
+  }
+  .img2{
+    width:20%;
+    height:20%;
+    margin-left:-2%;
+  }
+  .word2{
+    float:left;
+    width:32%;
+    margin-left:18%;
+    margin-top:-70px;
+  }
+  .word2 p{
+    color:gray;
+  }
+  .word2 span{
+    font-family: "黑体";
+    color:black;
+    font-size:16px;
+    padding-left:3px;
+
+  }
+  .five2{
+    float:left;
+    margin-top:-65px;
+    margin-left:47%;
+  }
+  .fi2{
+    color:red;
+    font-size:25px;
+  }
+ .money2 {
+    color:gray;
+  }
+  .three2{
+    float: left;
+    margin-top:-65px;
+    margin-left:63%;
+  }
+  .th2{
+    color:red;
+    font-size:25px;
+  }
+  .price2{
+    color:gray;
+  }
+  .pict2{
+    float: left;
+    margin-left: 97%;
+    margin-top:-15%;
+  }
+  .arrow2{
+    width:20px;
+    height:28px;
+  }
+
+  //three
+  .lie3{
+    height:80px;
+  }
+  .bao3{
+    float: left;
+    width:100%;
+    height:30px;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+    padding-top:5px;
+    border-top:0.55px solid #ebebeb;
+    border-bottom:0.55px solid #ebebeb;
+    background-color: white;
+    margin-top:5%;
+
+  }
+  .bao3 span{
+    color:#b6b6b6;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+
+  }
+  .img3{
+    width:20%;
+    height:20%;
+    margin-left: -1%;
+    margin-top:-2%;
+  }
+  .word3{
+    float:left;
+    width:32%;
+    margin-left:18%;
+    margin-top:-60px;
+  }
+  .word3 p{
+    color:gray;
+    
+  }
+  .word3 span{
+    font-family: "黑体";
+    color:black;
+    font-size:16px;
+    padding-left:3px;
+
+  }
+  .five3{
+    float:left;
+    margin-top:-65px;
+    margin-left:50%;
+  }
+  .fi3{
+    color:red;
+    font-size:25px;
+  }
+ .mone3 {
+    color:gray;
+  }
+ .three3{
+    float: left;
+    margin-top:-65px;
+    margin-left:73%;
+  }
+  .th3{
+    color:red;
+    font-size:25px;
+  }
+  .price3{
+    color:gray;
+  }
+  .pict3{
+    float: left;
+    margin-left: 97%;
+    margin-top:-15%;
+  }
+  .arrow3{
+    width:20px;
+    height:28px;
+  }
+
+  //four
+  .lie4{
+    height:80px;
+  }
+  .bao4{
+    float: left;
+    width:100%;
+    height:30px;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+    padding-top:5px;
+    border-top:0.55px solid #ebebeb;
+    border-bottom:0.55px solid #ebebeb;
+    background-color: white;
+    margin-top:5%;
+
+  }
+  .bao4 span{
+    color:#b6b6b6;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+
+  }
+  .img4{
+    width:20%;
+    height:20%;
+    margin-top:-2%;
+    margin-left:-1%;
+
+  }
+  .word4{
+    float:left;
+    width:32%;
+    margin-left:18%;
+    margin-top:-60px;
+  }
+  .word4 p{
+    color:gray;
+  }
+  .word4 span{
+    font-family: "黑体";
+    color:black;
+    font-size:16px;
+    padding-left:3px;
+
+  }
+  .five4{
+    float:left;
+    margin-top:-65px;
+    margin-left:50%;
+  }
+  .fi4{
+    color:red;
+    font-size:25px;
+  }
+ .money4 {
+    color:gray;
+  }
+  .three4{
+    float: left;
+    margin-top:-65px;
+    margin-left:73%;
+  }
+  .th4{
+    color:red;
+    font-size:25px;
+  }
+  .price4{
+    color:gray;
+  }
+  .pict4{
+    float: left;
+    margin-left: 97%;
+    margin-top:-15%;
+  }
+  .arrow4{
+    width:20px;
+    height:28px;
+  }
+
+  //five
+  .lie5{
+    height:80px;
+  }
+  .bao5{
+    float: left;
+    width:100%;
+    height:30px;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+    padding-top:5px;
+    border-top:0.55px solid #ebebeb;
+    border-bottom:0.55px solid #ebebeb;
+    margin-top:5%;
+
+  }
+  .bao5 span{
+    color:#b6b6b6;
+    background-color:white;
+    font-family: "黑体";
+    font-size:16px;
+    padding-left:10px;
+
+  }
+  .img5{
+    width:20%;
+    height:20%;
+    margin-top:-2%;
+    margin-left: -1%;
+  }
+  .word5{
+    float:left;
+    width:32%;
+    margin-left:18%;
+    margin-top:-60px;
+  }
+  .word5 p{
+    color:gray;
+  }
+  .word5 span{
+    font-family: "黑体";
+    color:black;
+    font-size:16px;
+    padding-left:3px;
+
+  }
+  .five5{
+    float:left;
+    margin-top:-65px;
+    margin-left:50%;
+  }
+  .fi5{
+    color:red;
+    font-size:25px;
+  }
+ .money5 {
+    color:gray;
+  }
+  .three5{
+    float: left;
+    margin-top:-65px;
+    margin-left:73%;
+  }
+  .th5{
+    color:red;
+    font-size:25px;
+  }
+  .price5{
+    color:gray;
+  }
+  .pict5{
+    float: left;
+    margin-left: 97%;
+    margin-top:-15%;
+  }
+  .arrow5{
+    width:20px;
+    height:28px;
+  }
+}

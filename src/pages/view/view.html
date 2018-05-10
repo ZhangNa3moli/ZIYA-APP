@@ -1,0 +1,191 @@
+<ion-header>
+
+      <ion-navbar color="yell">
+          <button ion-button icon-only menuToggle>
+              <ion-icon name="ios-arrow-back"></ion-icon>
+          </button>
+        <ion-title>找信息</ion-title>
+      
+      </ion-navbar>
+     
+      <ion-searchbar class="search" placeholder="输入你想找的信息，试试吧" ></ion-searchbar>
+     
+</ion-header>
+
+
+<ion-content>
+   <div class="con">
+      <div class="option">
+                <ion-item class="sf">
+                        <ion-label>信息类型</ion-label>
+                        <ion-select interface="popover">
+                            
+                            <ion-option value="资产包转让">资产包转让</ion-option>
+                            <ion-option value="债权转让">债权转让</ion-option>
+                            <ion-option value="固产转让">固产转让</ion-option>
+                            <ion-option value="法律服务">法律服务</ion-option>
+                            <ion-option value="商业保理">商业保理</ion-option>
+                            <ion-option value="典当担保">典当担保</ion-option>
+                            <ion-option value="融资借贷">融资借贷</ion-option>
+                            <ion-option value="委外催收">委外催收</ion-option>
+                            <ion-option value="资产求购">资产求购</ion-option>
+                            <ion-option value="悬赏信息">悬赏信息</ion-option>
+                            <ion-option value="尽职调查">尽职调查</ion-option>
+                        </ion-select>
+               </ion-item>                                                                                                                                                                                                                                                                                                                                                                              
+    
+                <ion-item class="ss">
+                               <ion-label>地区</ion-label>
+                               <ion-select  interface="popover">
+                                   
+                                   <ion-option value="北京">北京</ion-option>
+                                   <ion-option value="上海">上海</ion-option>
+                                   <ion-option value="广州">广州</ion-option>
+                                   <ion-option value="河北">河北</ion-option>
+                                   <ion-option value="云南">云南</ion-option>
+                                   <ion-option value="江苏">江苏</ion-option>
+                                   <ion-option value="山东">山东</ion-option>
+                                   <ion-option value="海南">海南</ion-option>
+                                   <ion-option value="黑龙江">黑龙江</ion-option>
+                                   <ion-option value="吉林">吉林</ion-option>
+                                   <ion-option value="辽宁">辽宁</ion-option>
+                               </ion-select>
+                </ion-item>
+
+                <ion-item class="st">
+                      <ion-label>资产包类型</ion-label>
+                       <ion-select  interface="popover">
+                           
+                           <ion-option value="抵押">抵押</ion-option>
+                           <ion-option value="信用">信用</ion-option>
+                           <ion-option value="综合类">综合类</ion-option>
+                       </ion-select>
+              </ion-item>
+            
+        </div>
+
+
+
+
+        <ion-list>
+            <div class="bao">资产承包转让<span>--FB001</span></div>
+            <button ion-item  class="lie" (click)="navCtrl1()">
+               <div class="one">
+                 <div class="pic">
+                    <img class="img" src="../../assets/imgs/money.png">
+                 </div>
+                 <div class="word">
+                   <p>地区:<span>北京</span></p>
+                   <p>来源:<span>银行</span></p>
+                   <p>类型:<span>抵押</span></p>
+                 </div>
+                 <div class="five">
+                    <p class="fi">500万</p>
+                    <p class="money">总金额</p>
+                 </div>
+                 <div class="three">
+                     <p class="th">300万</p>
+                     <p class="price">转让价</p>
+                 </div>
+                 <div class="pict">
+                      <img class="arrow" src="../../assets/imgs/arrow.png">
+                 </div>
+             </div>
+          </button>
+
+          <div class="bao2">委外催收<span>--FB001</span></div>
+          <button ion-item  class="lie2">
+             <div class="one2">
+               <div class="pi2c">
+                  <img class="img2" src="../../assets/imgs/itwo.png">
+               </div>
+               <div class="word2">
+                 <p>地区:<span>北京</span></p>
+                 <p>状态:<span>已诉讼</span></p>
+                 <p>类型:<span>个人</span></p>
+               </div>
+               <div class="five2">
+                  <p class="fi2">100</p>
+                  <p class="money2">金额</p>
+               </div>
+               <div class="three2">
+                   <p class="th2">15%-30%</p>
+                   <p class="price2">佣金比例</p>
+               </div>
+               <div class="pict2">
+                    <img class="arrow2" src="../../assets/imgs/arrow.png">
+               </div>
+           </div>
+        </button>
+  
+
+
+    <div class="bao3">法律服务<span>--FB001</span></div>
+    <button ion-item  class="lie3">
+       <div class="one3">
+         <div class="pic">
+            <img class="img3" src="../../assets/imgs/ithe.png">
+         </div>
+         <div class="word3">
+           <p>地区:<span>北京</span></p>
+           <p>类型:<span>民事</span></p>
+         </div>
+         <div class="five3">
+            <p class="fi3">咨询</p>
+            <p class="money3">需求</p>
+         </div>
+        
+         <div class="pict3">
+              <img class="arrow3" src="../../assets/imgs/arrow.png">
+         </div>
+     </div>
+  </button>
+
+
+  <div class="bao4">商业保理<span>--FB001</span></div>
+  <button ion-item  class="lie4">
+     <div class="one4">
+       <div class="pic4">
+          <img class="img4" src="../../assets/imgs/ithe.png">
+       </div>
+       <div class="word4">
+         <p>地区:<span>北京</span></p>
+         <p>买方性质:<span>国企</span></p>
+       </div>
+       <div class="five4">
+          <p class="fi4">500万</p>
+          <p class="money4">合同金额</p>
+       </div>
+       
+       <div class="pict4">
+            <img class="arrow4" src="../../assets/imgs/arrow.png">
+       </div>
+   </div>
+</button>
+
+
+      <div class="bao5">融资借贷<span>--FB001</span></div>
+      <button ion-item  class="lie5">
+        <div class="one5">
+          <div class="pic5">
+              <img class="img5" src="../../assets/imgs/ithe.png">
+          </div>
+          <div class="word5">
+            <p>地区:<span>北京</span></p>
+            <p>方式:<span>抵押</span></p>
+          </div>
+          <div class="five5">
+              <p class="fi5">100万</p>
+              <p class="money5">金额</p>
+          </div>
+
+          <div class="pict5">
+                <img class="arrow5" src="../../assets/imgs/arrow.png">
+          </div>
+      </div>
+      </button>
+       
+   </ion-list>
+</div>
+
+</ion-content>

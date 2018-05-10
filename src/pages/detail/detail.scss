@@ -1,0 +1,290 @@
+page-detail {
+     ion-title{
+         margin-left:25%;
+     }
+     .con{
+         width:100%;
+         height:auto;
+         background-color:#f9f9f9;
+     }
+     //list1
+     .package{
+         height:7rem;
+     }
+     .transfer{
+         font-family: "黑体";
+         font-size:18px;
+         width:40%;
+         margin-top:5px;
+
+     }
+     .degree{
+        width:75%;
+        height:25px;
+        margin-top:5%;
+ 
+     }
+     .full{
+        font-family: "黑体";
+        font-size: 17px;
+        color:#999999;
+        width:23%;
+     }
+     .stars{
+        width:40%;
+        margin-left:32%;
+        margin-top:-9%;
+     }
+     .collec{
+        width:15%;
+        margin-left:89%;
+        margin-top:-20%;
+     }
+     .big{
+        font-size:4.5rem;
+     }
+     .like{
+        color:#999999;
+        font-family: "黑体";
+        padding-left:5px;
+     }
+     .price{
+        color:#999999;
+        font-family: "黑体";
+        font-size: 17px;
+     }
+     .five{
+        font-family: "黑体";
+        font-size: 17px;
+        color:red;
+        padding-left: 5%;
+     }
+     .cost{
+        color:#999999;
+        font-family: "黑体";
+        font-size: 17px;
+        padding-left: 4%;
+     }
+     .two{
+        font-family: "黑体";
+        font-size: 17px;
+        color:red;
+        padding-left: 2%;
+     }
+     .detail{
+         border-bottom: 0.55px solid #c8c7cc;
+     }
+     .area{
+        color:#999999;
+        font-family: "黑体";
+        font-size: 17px;
+     }
+     .bj{
+        font-family: "黑体";
+        font-size: 17px;
+        padding-left: 10%;
+     }
+     .resource{
+        color:#999999;
+        font-family: "黑体";
+        font-size: 17px;
+        padding-left: 7%;
+     }
+     .bank{
+        font-family: "黑体";
+        font-size: 17px;
+        padding-left: 2%;
+     }
+     .type{
+        color:#999999;
+        font-family: "黑体";
+        font-size: 17px;
+        padding-left: 3%;
+     }
+     .loan{
+        font-family: "黑体";
+        font-size: 17px;
+        padding-left: 2%;
+     }
+     .list-md{
+         margin:0px;
+     }
+     //list2
+     .list2{
+         width:100%;
+         height:30%;
+         margin-top:10px;
+     }
+     .item-block {
+         min-height:3rem;
+     }
+     .info{
+        height:3.5rem;
+        border-top: 0.25px solid #c8c7cc;;
+     }
+     .des{
+         font-family: "黑体";
+         font-size: 18px;
+         color:black;
+     }
+     .in{
+         width:100%;
+         height:100px;
+         padding-left: 4%;
+         font-family: "黑体";
+         border:0;         
+     }
+     //语音描述
+     .voice{
+         margin-top:5px;
+     }
+     .say{
+        font-family: "黑体";
+        font-size: 18px;
+        color:black;
+        margin-top:8px;
+     }    
+     .ima{
+        float: left;
+        width:40%;
+        height:25%;
+        margin-left:25%;
+        margin-top:-10%;
+     }
+     .seconds{
+         float: left;
+         margin-left:65%; 
+         margin-top:-13%;
+         color:#999999;
+     }
+     //图片描述
+     .list3{
+         margin-top:5px;
+     }
+     .image{
+         height:3.2rem;
+     }
+     .photo{
+        font-family: "黑体";
+        font-size: 18px;
+        color:black;              
+     }
+     .show{
+         height:95px;    
+         border-bottom:1px solid #c8c7cc;     
+     }
+     .arrow1{
+        float: left;
+        height:25px;
+        width:15px;
+        padding-top:9%;
+     }
+     .reward1{
+        float: left;
+        width:27%;
+        height:27%;
+        margin-top:2%;
+        margin-left:3%;
+        border:1px solid #ebebeb;
+     }
+     .reward2{
+        float: left;
+        width:27%;
+        height:27%;
+        margin-top:2%;
+        margin-left: 2%;
+        border:1px solid #ebebeb;
+     }
+     .reward3{
+        float: left;
+        width:27%;
+        height:29%;
+        margin-top:2%;
+        margin-left: 2%;
+        border:1px solid #ebebeb;
+     }
+     .arrow2{
+        float: left;
+        height:25px;
+        width:15px;
+        padding-top:9%;
+        margin-left:2%;
+
+     }
+
+     //下载
+     .load{
+        border-top: 0.55px solid #c8c7cc;
+        margin-top:5px;
+        height:3.5rem;
+     }
+     .lo{
+         font-family: "黑体";
+         font-size: 18px;
+         color:black;
+         margin-top:7px;
+     }
+     .pc{
+        font-family: "黑体";
+        font-size: 18px;
+        color:#999999;
+        margin-left:30%;
+        margin-top:-9%;
+
+     }
+     //底部
+    .footer{
+        border-top: 0.55px solid #c8c7cc;
+        border-bottom: 0.55px solid #c8c7cc;
+        height:60px;
+        background-color:white;
+        margin-top:5px;
+
+    }
+
+     .first{
+         float: left;
+         width:40%;
+         height:100%;
+     }
+     .tou{
+         margin-top:9px;
+         margin-left: 16px; 
+     }
+     .to{
+         border-radius:20px;
+        
+     }
+     .phone{
+         float: left;
+         font-size:13px;
+         margin-left:42%;
+         margin-top:-18%;
+         
+     }
+     .second{
+        float: left;
+        width:32%;
+        height:100%;
+        font-family: "黑体";
+        font-size: 20px;
+        color:white;
+        background-color: #ff3366;
+        text-align: center;
+        padding-top:5%;
+     }
+     .third{
+        float: left;
+        width:28%;
+        height:100%;
+        font-family: "黑体";
+        font-size: 20px;
+        background-color: #fedb47;
+        text-align: center;
+        padding-top:5%;
+     }
+
+
+
+
+}
